@@ -1,0 +1,95 @@
+.singleProduct{
+    height: 100%;
+    width: 100vw;
+    padding: 100px 12%;
+    position: relative;
+}
+
+.prodImages{
+    display: flex;
+    justify-content: center;
+}
+
+.smallImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.smallImg img{
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px 15px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.2s ease-in-out;
+}
+.smallImg img:last-child{
+    margin-bottom: 0px;
+}
+.selected{
+    transform: scale(1.15);
+}
+
+
+.bigImg img{
+    height: 550px;
+    width: 550px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.prodDetails{
+    margin: auto 0px;
+}
+.prodDetails h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.prodDetails p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.prodDetails p span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.quantityBtn{
+    display: flex;
+    width: fit-content;
+}
+.quantityBtn p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+
+.quantityBtn button{
+    font-size: 20px;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.backBtn{
+    position: absolute;
+    top: 25px;
+    left: 4.5%;
+    width: fit-content;
+    font-size: 42px;
+    padding: 12px 15px;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+.backBtn:hover{
+    background-color: rgba(128, 128, 128, 0.50);
+}

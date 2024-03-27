@@ -1,0 +1,28 @@
+.mainProdPage{
+    padding: 20px;
+}
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainProdPage h1{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 10px 0px 20px 50px;
+    cursor: pointer;
+}
+.mainProdPage select{
+    background-color: white;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+
+.mainProdPage select option{
+    font-size: 16px; 
+}

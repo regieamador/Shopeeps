@@ -1,0 +1,95 @@
+.cartPage{
+    margin: auto;
+    width: 75%;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.user h5{
+    font-weight: 600;
+}
+.user h6{
+    font-weight: 500;
+}
+
+.user img{
+    width: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.tables{
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+}
+
+table {
+    border: 1px solid black;
+    margin-top: 25px
+}
+
+.tableRight{
+    width: 450px;
+    position: absolute;
+    right: 0;
+}
+
+.tableRight tr, .tableRight td{
+    border: 1px solid black;
+}
+.tableRight tr{
+    background-color: white;
+}
+
+.tableRight button{
+    position: absolute;
+    right: 0;
+}
+
+
+  
+td, th {
+    text-align: left;
+    padding: 10px 15px;
+}
+  
+tr:first-child {
+    background-color: rgb(1, 1, 75);
+    color: white;
+}
+
+.removeIcon{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.countBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.countBtn p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+
+.countBtn button{
+    font-size: 20px;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 50%;
+}

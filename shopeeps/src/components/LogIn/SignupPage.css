@@ -1,0 +1,70 @@
+.signup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inputDiv{
+    width: 100%;
+    padding: 0px 20px;
+}
+.textarea{
+    padding: 0px 20px;
+}
+.signupForm{
+    width: 35%;
+    height: fit-content;
+    border: none;
+    padding: 20px 30px;
+    padding-bottom: 40px;
+    margin-top: 3.5%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.signupForm label{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.signupForm label:last-child{
+    font-size: 16px;
+}
+.signupForm h3{
+    margin-bottom: 25px;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: orangered;
+}
+
+.formErrors{
+    color: red;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile input{
+    display: none;
+}
+.profile label{
+    background-color: #0D6EFD;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+}
+.profile label:hover{
+    background-color: #0c54c1;
+}
+
+
+.profilePic{
+    width: 100px;
+    border-radius: 50%;
+}

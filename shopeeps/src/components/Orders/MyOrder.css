@@ -1,0 +1,7 @@
+.tableRow{
+    border-bottom: 1px dotted black;
+}
+.tableRow td{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

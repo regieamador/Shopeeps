@@ -1,0 +1,37 @@
+.sidebar{
+    padding: 20px 40px;
+    margin-top: 20px;
+    background-color: white;
+    height: 85vh;
+}
+
+.sidebar h3{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+
+.sideLinkItems{
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.sideLinkItems:hover{
+    background-color: rgb(150, 150, 150, 0.5);
+}
+
+.sideLinkItems a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.sideLinkItems a img{
+    margin-right: 5px;
+    width: 25px;
+}

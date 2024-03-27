@@ -1,0 +1,36 @@
+.hero{
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.heroInfos{
+    text-align: center;
+    padding: 0px 5%;
+    margin: auto;
+}
+.heroInfos h2{
+    font-size: 45px;
+    margin: 15px 0px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.heroInfos p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.heroInfos button{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-top: 10px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+}
+.heroInfos button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}

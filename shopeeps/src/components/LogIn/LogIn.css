@@ -1,0 +1,36 @@
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm{
+    width: 550px;
+    height: fit-content;
+    border: none;
+    padding: 30px 60px;
+    padding-bottom: 60px;
+    margin-top: 10%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.loginForm label{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.loginForm label:last-child{
+    font-size: 16px;
+}
+.loginForm h3{
+    margin-bottom: 25px;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: orangered;
+}
+
+
+.formErrors{
+    color: red;
+}
